@@ -1,0 +1,16 @@
+{
+  "name": "airtime-cli",
+  "version": "1.0.0",
+  "description": "CLI tool for Airtime contract operations",
+  "main": "withdraw-cli.js",
+  "scripts": {
+    "withdraw": "node withdraw-cli.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "ethers": "^6.16.0"
+  },
+  "bin": {
+    "airtime-withdraw": "./withdraw-cli.js"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "name": "flexpay",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "node scripts/run-next.js dev",
+    "build": "node scripts/run-next.js build",
+    "start": "node scripts/run-next.js start",
+    "lint": "node scripts/run-next.js lint"
+  },
+  "dependencies": {
+    "@coinbase/onchainkit": "^1.1.2",
+    "@farcaster/miniapp-sdk": "^0.2.3",
+    "@tanstack/react-query": "^5.100.1",
+    "countries-list": "^3.3.0",
+    "ethers": "^6.16.0",
+    "libphonenumber-js": "^1.12.42",
+    "nanoid": "^5.1.9",
+    "next": "15.5.15",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5",
+    "viem": "^2.48.4",
+    "wagmi": "^2.19.5"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@farcaster/quick-auth": "^0.0.8",
+    "@next/eslint-plugin-next": "15.5.15",
+    "@types/node": "^22",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "15.5.15",
+    "typescript": "5.8.3"
+  }
+}
